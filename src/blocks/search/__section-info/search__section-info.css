@@ -1,0 +1,13 @@
+.search__section-info {
+    display: block;
+    max-width: 546px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 32px;
+    padding-right: 60px;
+    margin-top: 0;
+}

@@ -1,0 +1,22 @@
+.search__section-button {
+    width: 168px;
+    height: 64px;
+    background: #2F71E5;
+    border-radius: 100px;
+    border: none;
+    padding: 0;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #FFF;
+}
+
+.search__section-button:hover {
+    background: #347EFF;
+}
+
+.search__section-button:active {
+    background: #2A65CC;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная</title>
+
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css%>">
+    <link rel="icon" href="<%=require('../../favicon.ico').default%>" type="image/x-icon%">
+    <link rel="shortcut icon" href="<%=require('../../favicon.ico').default%>" type="image/x-icon%">
+</head>
+
+<body>
+    <div class="root">
+        <section class="search">
+            <header class="header root__section">
+                <div class="header__logo">NewsAnalyzer</div>
+                <nav class="header__links">
+                    <a href="#" class="header__link">Главная</a>
+                    <a href="#" class="header__link">О проекте</a>
+                </nav>
+            </header>
+            <div class="search__section">
+                <h1 class="search__section-heading">Что в мире творится?</h1>
+                <p class="search__section-info">Введите в поиске любую тему и узнайте, насколько популярной
+                    она была в новостях за прошедшую неделю.</p>
+                <form class="search__section-form">
+                    <input type="text" name="search" class="search__section-input" required minlength="2"
+                        maxlength="30" placeholder="Введите тему новости">
+                    <button type="submit" class="search__section-button">Искать</button>
+                </form>
+            </div>
+        </section>
+        <section class="preloader">
+            <div class="preloader__circle-preloader"></div>
+            <p class="preloader__text">Идет поиск новостей...</p>
+        </section>
+        <section class="failed">
+            <img src="<%=require('../../images/not-found.svg').default%>" alt="Грустный смайлик" class="failed__picture">
+            <h3 class="failed__heading">Ничего не найдено</h3>
+            <p class="failed__text">К сожалению по вашему запросу ничего не найдено.</p>
+        </section>
+        <section class="results">
+
+        </section>
+        <section class="author">
+
+        </section>
+        <footer class="footer">
+
+        </footer>
+
+    </div>
+
+
+
+    <script src="<%=htmlWebpackPlugin.files.js%>"></script>
+</body>
+
+</html>
