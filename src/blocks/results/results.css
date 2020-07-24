@@ -1,0 +1,7 @@
+@import url(./__heading/results__heading.css);
+@import url(./__heading-title/results__heading-title.css);
+@import url(./__heading-link/results__heading-link.css);
+
+.results {
+    background: #F5F6F7;
+}
