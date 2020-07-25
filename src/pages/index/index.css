@@ -6,4 +6,10 @@
 @import url(../../blocks/preloader/preloader.css);
 @import url(../../blocks/failed/failed.css);
 @import url(../../blocks/results/results.css);
+@import url(../../blocks/author/author.css);
+@import url(../../blocks/footer/footer.css);
 
+body {
+   max-width: 1440px;
+   margin: 0;
+}

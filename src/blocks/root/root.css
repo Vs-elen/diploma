@@ -1,4 +1,7 @@
 @import url(./__section/root__section.css);
+@import url(./__block-title/root__block-title.css);
 .root {
-    min-height: 100vh;
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;  
 }

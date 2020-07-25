@@ -1,9 +1,9 @@
-.results__heading-title {
+.results__card-link {
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 26px;
+    line-height: 30px;
     color: #1A1B22;
-    margin: 0;
+    text-decoration: none;
 }

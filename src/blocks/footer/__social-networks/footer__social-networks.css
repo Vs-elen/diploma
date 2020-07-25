@@ -1,0 +1,6 @@
+.footer__social-networks {
+    min-width: 70px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}

@@ -1,0 +1,6 @@
+.results__card-info {
+    width: calc(100% - 48px);
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 24px;
+}

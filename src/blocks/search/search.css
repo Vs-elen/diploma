@@ -6,6 +6,8 @@
 @import url(./__section-button/search__section-button.css);
 .search {
     min-height: 576px;
+    max-width: 1440px;
     background-image: url(../../images/georgia-de-lotz.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }

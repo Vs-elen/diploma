@@ -1,0 +1,7 @@
+.results__card {
+    max-width: 400px;
+    max-height: 576px;    
+    background: #FFF;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}

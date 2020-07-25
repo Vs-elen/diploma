@@ -1,0 +1,6 @@
+.results__card-image {
+    width: 400px;
+    height: 272px;
+    background-image: url(../../../images/image_08.jpg);
+    border-radius: 16px 16px 0 0;
+}

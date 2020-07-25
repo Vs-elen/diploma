@@ -1,7 +1,21 @@
 @import url(./__heading/results__heading.css);
-@import url(./__heading-title/results__heading-title.css);
 @import url(./__heading-link/results__heading-link.css);
+@import url(./__heading-link-text/results__heading-link-text.css);
+@import url(./__heading-arrow/results__heading-arrow.css);
+@import url(./__cards/results__cards.css);
+@import url(./__card/results__card.css);
+@import url(./__card-image/results__card-image.css);
+@import url(./__card-info/results__card-info.css);
+@import url(./__card-date/results__card-date.css);
+@import url(./__card-link/results__card-link.css);
+@import url(./__card-title/results__card-title.css);
+@import url(./__card-extract/results__card-extract.css);
+@import url(./__card-source/results__card-source.css);
+@import url(./__button/results__button.css);
 
 .results {
     background: #F5F6F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -1,0 +1,14 @@
+@import url(./__content/footer__content.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__navigation/footer__navigation.css);
+@import url(./__navigation-links/footer__navigation-links.css);
+@import url(./__navigation-item/footer__navigation-item.css);
+@import url(./__navigation-link/footer__navigation-link.css);
+@import url(./__social-networks/footer__social-networks.css);
+@import url(./__social-icon/footer__social-icon.css);
+@import url(./__icon-link/footer__icon-link.css);
+@import url(./__icon-pic/footer__icon-pic.css);
+
+.footer {
+    background: #FFF;
+}

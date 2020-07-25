@@ -17,18 +17,18 @@
         <section class="search">
             <header class="header root__section">
                 <div class="header__logo">NewsAnalyzer</div>
-                <nav class="header__links">
+                <div class="header__links">
                     <a href="#" class="header__link">Главная</a>
                     <a href="#" class="header__link">О проекте</a>
-                </nav>
+                </div>
             </header>
             <div class="search__section">
                 <h1 class="search__section-heading">Что в мире творится?</h1>
                 <p class="search__section-info">Введите в поиске любую тему и узнайте, насколько популярной
                     она была в новостях за прошедшую неделю.</p>
                 <form class="search__section-form">
-                    <input type="text" name="search" class="search__section-input" required minlength="2"
-                        maxlength="30" placeholder="Введите тему новости">
+                    <input type="text" name="search" class="search__section-input" required minlength="2" maxlength="30"
+                        placeholder="Введите тему новости">
                     <button type="submit" class="search__section-button">Искать</button>
                 </form>
             </div>
@@ -38,37 +38,149 @@
             <p class="preloader__text">Идет поиск новостей...</p>
         </section>
         <section class="failed">
-            <img src="<%=require('../../images/not-found.svg').default%>" alt="Грустный смайлик" class="failed__picture">
+            <img src="<%=require('../../images/not-found.svg').default%>" alt="Грустный смайлик"
+                class="failed__picture">
             <h3 class="failed__heading">Ничего не найдено</h3>
             <p class="failed__text">К сожалению по вашему запросу ничего не найдено.</p>
         </section>
         <section class="results">
             <div class="results__heading root__section">
-                <h2 class="results__heading-title">Результаты поиска</h2>
-                <a href="#" class="results__heading-link">Посмотреть аналитику ></a>
+                <h2 class="root__block-title">Результаты поиска</h2>
+                <a href="#" class="results__heading-link">
+                    <p class="results__heading-link-text">Посмотреть аналитику</p>
+                    <img src="<%=require('../../images/back.svg').default%>" alt="" class="results__heading-arrow">
+                </a>
             </div>
             <div class="results__cards root__section">
                 <div class="results__card">
                     <div class="results__card-image"></div>
-                    <div class="results__card-date">2 августа, 2019</div>
-                    <p class="results__card-title">Национальное достояние – парки</p>
-                    <p class="results__card-extract">В 2016 году Америка отмечала важный юбилей: 
-                        сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, 
-                        где и сегодня каждый может приобщиться к природе.</p>
-                    <div class="results__card-source">Лента.ру</div>
+                    <div class="results__card-info">
+                        <div class="results__card-date">2 августа, 2019</div>
+                        <a href="#" class="results__card-link">
+                            <h4 class="results__card-title">Национальное достояние – парки</h4>
+                        </a>
+                        <p class="results__card-extract">В 2016 году Америка отмечала важный юбилей:
+                            сто лет назад здесь начала складываться система национальных парков – охраняемых территорий,
+                            где и сегодня каждый может приобщиться к природе.</p>
+                        <div class="results__card-source">Лента.ру</div>
+                    </div>
+                </div>
+                <div class="results__card">
+                    <div class="results__card-image"></div>
+                    <div class="results__card-info">
+                        <div class="results__card-date">2 августа, 2019</div>
+                        <a href="#" class="results__card-link">
+                            <h4 class="results__card-title">Национальное достояние – парки</h4>
+                        </a>
+                        <p class="results__card-extract">В 2016 году Америка отмечала важный юбилей:
+                            сто лет назад здесь начала складываться система национальных парков – охраняемых территорий,
+                            где и сегодня каждый может приобщиться к природе.</p>
+                        <div class="results__card-source">Лента.ру</div>
+                    </div>
+                </div>
+                <div class="results__card">
+                    <div class="results__card-image"></div>
+                    <div class="results__card-info">
+                        <div class="results__card-date">2 августа, 2019</div>
+                        <a href="#" class="results__card-link">
+                            <h4 class="results__card-title">Национальное достояние – парки</h4>
+                        </a>
+                        <p class="results__card-extract">В 2016 году Америка отмечала важный юбилей:
+                            сто лет назад здесь начала складываться система национальных парков – охраняемых территорий,
+                            где и сегодня каждый может приобщиться к природе.</p>
+                        <div class="results__card-source">Лента.ру</div>
+                    </div>
+                </div>
+                <div class="results__card">
+                    <div class="results__card-image"></div>
+                    <div class="results__card-info">
+                        <div class="results__card-date">2 августа, 2019</div>
+                        <a href="#" class="results__card-link">
+                            <h4 class="results__card-title">Национальное достояние – парки</h4>
+                        </a>
+                        <p class="results__card-extract">В 2016 году Америка отмечала важный юбилей:
+                            сто лет назад здесь начала складываться система национальных парков – охраняемых территорий,
+                            где и сегодня каждый может приобщиться к природе.</p>
+                        <div class="results__card-source">Лента.ру</div>
+                    </div>
+                </div>
+                <div class="results__card">
+                    <div class="results__card-image"></div>
+                    <div class="results__card-info">
+                        <div class="results__card-date">2 августа, 2019</div>
+                        <a href="#" class="results__card-link">
+                            <h4 class="results__card-title">Национальное достояние – парки</h4>
+                        </a>
+                        <p class="results__card-extract">В 2016 году Америка отмечала важный юбилей:
+                            сто лет назад здесь начала складываться система национальных парков – охраняемых территорий,
+                            где и сегодня каждый может приобщиться к природе.</p>
+                        <div class="results__card-source">Лента.ру</div>
+                    </div>
+                </div>
+                <div class="results__card">
+                    <div class="results__card-image"></div>
+                    <div class="results__card-info">
+                        <div class="results__card-date">2 августа, 2019</div>
+                        <a href="#" class="results__card-link">
+                            <h4 class="results__card-title">Национальное достояние – парки</h4>
+                        </a>
+                        <p class="results__card-extract">В 2016 году Америка отмечала важный юбилей:
+                            сто лет назад здесь начала складываться система национальных парков – охраняемых территорий,
+                            где и сегодня каждый может приобщиться к природе.</p>
+                        <div class="results__card-source">Лента.ру</div>
+                    </div>
                 </div>
             </div>
             <button type="submit" class="results__button">Показать еще</button>
         </section>
-        <section class="author">
-
+        <section class="author root__section">
+            <div class="author__content">
+                <img src="<%=require('../../images/image-03.png').default%>" alt="Фото автора" class="author__photo">
+                <div class="author__info">
+                    <h2 class="root__block-title">Об авторе</h2>
+                    <p class="author__info-text">Это блок с описанием автора проекта. Здесь следует указать,
+                        как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+                    <p class="author__info-text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут
+                        научились,
+                        и чем можете помочь потенциальным заказчикам.</p>
+                </div>
+            </div>
         </section>
-        <footer class="footer">
+        <footer class="footer root__section">
+            <div class="footer__content">
+                <p class="footer__copyright">© 2020 Supersite</p>
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-links">
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link" href="#" target="_blank">Главная</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link" href="#" target="_blank">О проекте</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link" href="#" target="_blank">Яндекс.Практикум</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="footer__social-networks">
+                    <li class="footer__social-icon">
+                        <a href="#" class="footer__icon-link">
+                            <img src="<%=require('../../images/github.svg').default%>" alt="Иконка Github" class="footer__icon-pic">
+                        </a>
+                    </li>
+                    <li class="footer__social-icon">
+                        <a href="#" class="footer__icon-link">
+                            <img src="<%=require('../../images/fb.svg').default%>" alt="Иконка социальной сети Facebook"
+                                class="footer__icon-pic">                            
+                        </a>
+                    </li>
+                </ul>
 
+            </div>
         </footer>
 
     </div>
-
+    </div>
 
 
     <script src="<%=htmlWebpackPlugin.files.js%>"></script>
