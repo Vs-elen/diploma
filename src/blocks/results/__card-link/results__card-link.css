@@ -1,9 +1,4 @@
-.results__card-link {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    color: #1A1B22;
+.results__card-link {    
     text-decoration: none;
+    cursor: url(../../../images/lapka.svg), pointer;
 }

@@ -3,7 +3,7 @@
     height: 64px;
     background: #FFF;
     border-radius: 80px;
-    font-family: Roboto;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -18,4 +18,5 @@
 .results__button:hover {
     background: #FFF;
     opacity: 0.9;
+    cursor: url(../../../images/lapka.svg), pointer;
 }

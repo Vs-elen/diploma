@@ -1,4 +1,5 @@
 .header__links {
+    margin-top: 30px;
     min-width: 192px;
     display: flex;
     justify-content: space-between;
