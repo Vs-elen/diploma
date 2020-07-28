@@ -1,0 +1,16 @@
+@import url(./__content-title/graph__content-title.css);
+@import url(./__content/graph__content.css);
+@import url(./__heading-item/graph__heading-item.css);
+@import url(./__heading/graph__heading.css);
+@import url(./__heading-date/graph__heading-date.css);
+@import url(./__scale-item/graph__scale-item.css);
+@import url(./__scale/graph__scale.css);
+@import url(./__bar-container/graph__bar-container.css);
+@import url(./__bar-label/graph__bar-label.css);
+@import url(./__bar/graph__bar.css);
+@import url(./__diagram/graph__diagram.css);
+@import url(./__bar-percent/graph__bar-percent.css);
+
+.graph {
+    background: #F5F6F7;
+}

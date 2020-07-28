@@ -1,0 +1,13 @@
+@import url(./__content/statistics__content.css);
+@import url(./__info/statistics__info.css);
+@import url(./__info_item/statistics__info_item.css);
+@import url(./__info_titles/statistics__info_titles.css);
+@import url(./__info_week/statistics__info_week.css);
+@import url(./__link-analytics/statistics__link-analytics.css);
+@import url(./__link-main/statistics__link-main.css);
+@import url(./__links/statistics__links.css);
+
+.statistics {
+    background: #FFF;
+    border-top: 1px solid #D1D2D6;  
+}

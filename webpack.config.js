@@ -42,7 +42,11 @@ module.exports = {
 			{
 				test: /\.(gif|png|jpe?g|svg|ico)$/i,
 				use: [
-					'file-loader?name=../dist/images/[name].[ext]',
+					{
+						loader: 'file-loader',
+	
+					},
+					
 
 				
 			    {
@@ -75,6 +79,12 @@ module.exports = {
 		]
 	},
 
+	resolve: {
+		alias: {
+			img: path.resolve(__dirname, 'src/images')
+		}
+	},
+
 	plugins: [
 		new MiniCssExtractPlugin({
 			filename: '[name].[contenthash].css'
@@ -91,7 +101,7 @@ module.exports = {
 			inject: false,
 			template: './src/pages/index/index.html',
 			chunks: ['index'],
-			filename: 'index.html',
+			filename: 'index.html',			
 		}),
 		new HtmlWebpackPlugin({
 			inject: false,

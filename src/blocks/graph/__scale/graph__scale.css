@@ -1,0 +1,7 @@
+.graph__scale {
+    list-style-type: none;
+    padding-left: 104px;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 0;
+}

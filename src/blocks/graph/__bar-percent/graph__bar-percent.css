@@ -1,0 +1,10 @@
+.graph__bar-percent {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    margin-left: 6px;
+}

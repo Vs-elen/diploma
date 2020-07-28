@@ -7,10 +7,57 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Аналитика</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css%>">
+    <link rel="icon" href="<%=require('../../favicon.ico').default%>" type="image/x-icon%">
+    <link rel="shortcut icon" href="<%=require('../../favicon.ico').default%>" type="image/x-icon%">
 </head>
 
 <body>
-    <h1>Analytics</h1>
+    <div class="root">
+        <header class="header root__section">
+            <div class="header__logo header__logo_page_about">NewsAnalyzer</div>
+            <div class="header__links">
+                <a href="index.html" class="header__link header__link_page_light">Главная</a>
+                <a href="about.html" class="header__link header__link_page_light">О проекте</a>
+            </div>
+        </header>
+        <section class="statistics">
+            <div class="statistics__content root__section">
+                <div class="statistics__links">
+                    <a href="index.html" class="statistics__link-main">Главная</a>
+                    <a href="analytics.html" class="statistics__link-analytics">/ Аналитика</a>
+                </div>
+                <h2 class="root__block-title">Вы спросили: «Путешествия»</h2>
+                <ul class="statistics__info">
+                    <li class="statistics__info_item">Новостей за неделю:<span class="statistics__info_week">34
+                            324</span></li>
+                    <li class="statistics__info_item">Упоминаний в загаловках:<span
+                            class="statistics__info_titles">235</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="graph">
+            <div class="graph__content root__section">
+                <h3 class="graph__content-title">Аналитика по дням</h3>
+                <div class="graph__heading">
+                    <p class="graph__heading-date">Дата (Август)</p>
+                    <p class="graph__heading-item">Кол-во упоминаний</p>
+                </div>
+                <ul class="graph__scale">
+                    <li class="graph__scale-item">0</li>
+                    <li class="graph__scale-item">25</li>
+                    <li class="graph__scale-item">50</li>
+                    <li class="graph__scale-item">75</li>
+                    <li class="graph__scale-item">100</li>
+                </ul>
+                <div class="graph__diagram">
+                    <div class="graph__bar-container">
+                        <span class="graph__bar-label">19, пн</span>
+                        <div class="graph__bar"><span class="graph__bar-percent">15</span></div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+    </div>
 
 
 

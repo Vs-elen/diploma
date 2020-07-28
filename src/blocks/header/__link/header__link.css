@@ -1,5 +1,5 @@
 @import url(./_page_main/header__link_page_main.css);
-@import url(./_page_about/header__link_page_about.css);
+@import url(./_page_light/header__link_page_light.css);
 
 .header__link {
     font-family: Roboto, Arial, Helvetica, sans-serif;
