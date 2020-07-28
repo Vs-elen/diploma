@@ -41,10 +41,10 @@ module.exports = {
 
 			{
 				test: /\.(gif|png|jpe?g|svg|ico)$/i,
-				use: [{
-					loader: 'file-loader',
+				use: [
+					'file-loader?name=../dist/images/[name].[ext]',
 
-				},
+				
 			    {
 					loader: 'image-webpack-loader',
 					options: {
@@ -73,12 +73,6 @@ module.exports = {
 				],
 			},
 		]
-	},
-
-	resolve: {
-		alias: {
-			img: path.resolve(__dirname, 'src/images')
-		}
 	},
 
 	plugins: [

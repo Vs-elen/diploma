@@ -1,3 +1,7 @@
+@import url(./_page_about/header__logo_page_about.css);
+@import url(./_page_main/header__logo_page_main.css);
+
+
 .header__logo {
     margin-top: 30px;
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
@@ -5,5 +9,4 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
 }

@@ -1,0 +1,1 @@
+import './swiper-slide.css';

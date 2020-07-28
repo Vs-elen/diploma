@@ -1,6 +1,6 @@
 .results__heading-link {
     max-width: 300px;
     display: flex;
-    text-decoration: none;
-    
+    text-decoration: none;    
+    cursor: url(../../../images/lapka.svg), pointer;
 }

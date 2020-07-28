@@ -1,0 +1,7 @@
+@import url(../../vendor/fonts.css);
+@import url(../../blocks/swiper/swiper.css);
+@import url(../../blocks/swiper-button-next/swiper-button-next.css);
+@import url(../../blocks/swiper-button-prev/swiper-button-prev.css);
+body {
+    margin: 0;
+}

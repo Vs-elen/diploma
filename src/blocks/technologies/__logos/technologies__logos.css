@@ -1,0 +1,7 @@
+.technologies__logos {
+    margin-top: 10px;
+    margin-left: 180px;
+    min-width: 576px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,6 +1,7 @@
 @import url(./__content/author__content.css);
 @import url(./__info/author__info.css);
 @import url(./__photo/author__photo.css);
+@import url(./__info-texts/author__info-texts.css);
 @import url(./__info-text/author__info-text.css);
 
 .author {

@@ -1,5 +1,11 @@
 @import url(./__section/root__section.css);
 @import url(./__block-title/root__block-title.css);
+@import url(./__block-heading/root__block-heading.css);
+@import url(./__block-link/root__block-link.css);
+@import url(./__block-link-text/root__block-link-text.css);
+@import url(./__block-link-arrow/root__block-link-arrow.css);
+
+
 .root {
     max-width: 1440px;
     min-width: 320px;

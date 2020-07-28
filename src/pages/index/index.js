@@ -1,1 +1,9 @@
 import '../../pages/index/index.css';
+import '../../blocks/author/autor.js';
+import '../../blocks/failed/failed.js';
+import '../../blocks/footer/footer.js';
+import '../../blocks/header/header.js';
+import '../../blocks/preloader/preloader.js';
+import '../../blocks/results/results.js';
+import '../../blocks/root/root.js';
+import '../../blocks/search/search.js';

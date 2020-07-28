@@ -1,0 +1,7 @@
+.root__block-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 72px;
+    padding-bottom: 52px;
+}
