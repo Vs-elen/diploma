@@ -100,8 +100,6 @@
             </article>
         </section>
         <section class="history">
-
-
             <div class="history__content">
                 <div class="root__block-heading root__section">
                     <h2 class="root__block-title">История коммитов из GitHub</h2>
@@ -263,52 +261,51 @@
 
                     <!-- Add Arrows -->
 
-                    <img src="<%=require('../../images/slider-control2.png').default%>" class="swiper-button-next">
-                    <img src="<%=require('../../images/slider-control.png').default%>" class="swiper-button-prev">
+                    <img src="<%=require('../../images/slider-control2.png').default%>" class="swiper-button-next"
+                        alt="кнопка Вперед">
+                    <img src="<%=require('../../images/slider-control.png').default%>" class="swiper-button-prev"
+                        alt="кнопка Назад">
                 </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-    </div>
-    </section>
-    <footer class="footer root__section">
-        <div class="footer__content">
-            <p class="footer__copyright">© 2020 Supersite</p>
-            <nav class="footer__navigation">
-                <ul class="footer__navigation-links">
-                    <li class="footer__navigation-item">
-                        <a class="footer__navigation-link" href="index.html" target="_blank">Главная</a>
+        </section>
+        <footer class="footer root__section">
+            <div class="footer__content">
+                <p class="footer__copyright">© 2020 Supersite</p>
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-links">
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link" href="index.html" target="_blank">Главная</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link" href="about.html" target="_blank">О проекте</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link" href="https://praktikum.yandex.ru/"
+                                target="_blank">Яндекс.Практикум</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="footer__social-networks">
+                    <li class="footer__social-icon">
+                        <a href="https://github.com/" class="footer__icon-link">
+                            <img src="<%=require('../../images/github.svg').default%>" alt="Иконка Github"
+                                class="footer__icon-pic">
+                        </a>
                     </li>
-                    <li class="footer__navigation-item">
-                        <a class="footer__navigation-link" href="about.html" target="_blank">О проекте</a>
-                    </li>
-                    <li class="footer__navigation-item">
-                        <a class="footer__navigation-link" href="https://praktikum.yandex.ru/"
-                            target="_blank">Яндекс.Практикум</a>
+                    <li class="footer__social-icon">
+                        <a href="https://www.facebook.com/" class="footer__icon-link">
+                            <img src="<%=require('../../images/fb.svg').default%>" alt="Иконка социальной сети Facebook"
+                                class="footer__icon-pic">
+                        </a>
                     </li>
                 </ul>
-            </nav>
-            <ul class="footer__social-networks">
-                <li class="footer__social-icon">
-                    <a href="https://github.com/" class="footer__icon-link">
-                        <img src="<%=require('../../images/github.svg').default%>" alt="Иконка Github"
-                            class="footer__icon-pic">
-                    </a>
-                </li>
-                <li class="footer__social-icon">
-                    <a href="https://www.facebook.com/" class="footer__icon-link">
-                        <img src="<%=require('../../images/fb.svg').default%>" alt="Иконка социальной сети Facebook"
-                            class="footer__icon-pic">
-                    </a>
-                </li>
-            </ul>
 
-        </div>
-    </footer>
+            </div>
+        </footer>
     </div>
-
-
-
     <script src="<%=htmlWebpackPlugin.files.js%>"></script>
 </body>
 
