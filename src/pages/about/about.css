@@ -1,7 +1,17 @@
 @import url(../../vendor/fonts.css);
+@import url(../../blocks/root/root.css);
+@import url(../../blocks/header/header.css);
+@import url(../../blocks/clients/clients.css);
+@import url(../../blocks/technologies/technologies.css);
+@import url(../../blocks/author/author.css);
+@import url(../../blocks/history/history.css);
 @import url(../../blocks/swiper/swiper.css);
+@import url(../../blocks/swiper-slide/swiper-slide.css);
 @import url(../../blocks/swiper-button-next/swiper-button-next.css);
 @import url(../../blocks/swiper-button-prev/swiper-button-prev.css);
+@import url(../../blocks/swiper-pagination-bullet/swiper-pagination-bullet.css);
+@import url(../../blocks/swiper-pagination/swiper-pagination.css);
+@import url(../../blocks/footer/footer.css);
 body {
     margin: 0;
 }

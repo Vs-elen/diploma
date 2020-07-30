@@ -7,8 +7,8 @@
 @import url(./__social-networks/footer__social-networks.css);
 @import url(./__social-icon/footer__social-icon.css);
 @import url(./__icon-link/footer__icon-link.css);
-@import url(./__icon-pic/footer__icon-pic.css);
 
 .footer {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     background: #FFF;
 }

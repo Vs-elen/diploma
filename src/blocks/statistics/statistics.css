@@ -8,6 +8,7 @@
 @import url(./__links/statistics__links.css);
 
 .statistics {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     background: #FFF;
-    border-top: 1px solid #D1D2D6;  
+    border-top: 1px solid #D1D2D6;
 }

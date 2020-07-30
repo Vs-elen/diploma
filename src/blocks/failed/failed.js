@@ -1,1 +1,0 @@
-import './failed.css';

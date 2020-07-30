@@ -5,6 +5,6 @@
 @import url(./__info-text/author__info-text.css);
 
 .author {
-    background: #FFF; 
-    
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background: #FFF;     
 }

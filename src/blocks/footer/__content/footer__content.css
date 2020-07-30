@@ -1,4 +1,7 @@
 .footer__content {
+    max-width: 1440px;
+    width: calc(100% - 208px);
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: baseline;

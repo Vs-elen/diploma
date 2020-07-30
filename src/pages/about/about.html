@@ -14,7 +14,7 @@
 
 <body>
     <div class="root">
-        <header class="header root__section">
+        <header class="header">
             <div class="header__logo header__logo_page_about">NewsAnalyzer</div>
             <div class="header__links">
                 <a href="index.html" class="header__link header__link_page_light">Главная</a>
@@ -22,7 +22,7 @@
             </div>
         </header>
         <section class="clients">
-            <article class="clients__content root__section">
+            <article class="clients__content">
                 <h2 class="root__block-title">Клиентам</h2>
                 <div class="clients__info-text">
                     <p class="clients__info">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель —
@@ -54,7 +54,7 @@
             </article>
         </section>
         <section class="technologies">
-            <div class="technologies__content root__section">
+            <div class="technologies__content">
                 <h2 class="root__block-title root__block-title_page_about">Используемые технологии</h2>
                 <div class="technologies__logos">
                     <figure class="technologies__logo">
@@ -80,9 +80,13 @@
                 </div>
             </div>
         </section>
-        <section class="author root__section">
+        <section class="author">
             <article class="author__content">
-                <img src="<%=require('../../images/image-03.png').default%>" alt="Фото автора" class="author__photo">
+                <picture class="author__photo">
+                    <source srcset="<%=require('../../images/image-03.png').default%>"
+                        media="(min-width: 768px)">
+                    <img src="<%=require('../../images/author-image-small.png').default%>" alt="Фото автора">
+                </picture>
                 <div class="author__info">
                     <h2 class="root__block-title">Об авторе</h2>
                     <div class="author__info-texts">
@@ -101,17 +105,17 @@
         </section>
         <section class="history">
             <div class="history__content">
-                <div class="root__block-heading root__section">
+                <div class="root__block-heading">
                     <h2 class="root__block-title">История коммитов из GitHub</h2>
                     <a href="analytics.html" class="root__block-link">
                         <p class="root__block-link-text">Открыть в Github</p>
-                        <img src="<%=require('../../images/back.svg').default%>" alt="" class="root__block-link-arrow">
+                        <img src="<%=require('../../images/back.svg').default%>" alt="Стрелка вперед" class="root__block-link-arrow">
                     </a>
                 </div>
-
+            </div>
                 <div class="swiper-container">
-                    <div class="swiper__shadow-left"></div>
-                    <div class="swiper__shadow-right"></div>
+                    <div class="swiper-container__shadow-left"></div>
+                    <div class="swiper-container__shadow-right"></div>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <a href="https://github.com/" class="swiper-slide__link">
@@ -271,7 +275,7 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-        <footer class="footer root__section">
+        <footer class="footer">
             <div class="footer__content">
                 <p class="footer__copyright">© 2020 Supersite</p>
                 <nav class="footer__navigation">

@@ -3,5 +3,6 @@
     padding-left: 104px;
     display: flex;
     justify-content: space-between; 
+    margin-top: 14px;
     margin-bottom: 0;
 }

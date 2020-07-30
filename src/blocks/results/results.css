@@ -1,4 +1,5 @@
 @import url(./__heading/results__heading.css);
+@import url(./__container/results__container.css);
 @import url(./__heading-link/results__heading-link.css);
 @import url(./__heading-link-text/results__heading-link-text.css);
 @import url(./__heading-arrow/results__heading-arrow.css);
@@ -17,5 +18,7 @@
     background: #F5F6F7;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
+    padding-left: 104px;    
+    padding-right: 104px;  
 }

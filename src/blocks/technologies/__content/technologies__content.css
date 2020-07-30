@@ -1,4 +1,7 @@
 .technologies__content {
     padding-top: 80px;
     display: flex;
+    max-width: 1440px;
+    width: calc(100% - 208px);
+    margin: auto;
 }

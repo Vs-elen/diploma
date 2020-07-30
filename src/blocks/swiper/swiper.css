@@ -1,8 +1,6 @@
 @import url(./swiper-bundle.min.css);
-@import url(./__shadow-left/swiper__shadow-left.css);
-@import url(./__shadow-right/swiper__shadow-right.css);
-@import url(../swiper-pagination-bullet/swiper-pagination-bullet.css);
-@import url(../swiper-pagination/swiper-pagination.css);
+@import url(./__shadow-left/swiper-container__shadow-left.css);
+@import url(./__shadow-right/swiper-container__shadow-right.css);
 
 .swiper-container {
     width: 100%;

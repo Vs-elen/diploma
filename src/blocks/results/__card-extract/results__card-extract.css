@@ -5,4 +5,11 @@
     font-size: 16px;
     line-height: 22px;
     color: #1A1B22;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+    /*   for IE */
+    /*   max-height:75px; */
+    word-wrap: break-word;
 }

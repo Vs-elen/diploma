@@ -1,7 +1,8 @@
 @import url(./__text/preloader__text.css);
 @import url(./__circle-preloader/preloader__circle-preloader.css);
 
-.preloader {
+.preloader {    
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     min-height: 282px;
     background: #F5F6F7;
     position: relative;

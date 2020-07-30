@@ -1,8 +1,7 @@
 @import url(./_page_about/author__info-text_page_about.css);
 @import url(./_page_main/author__info-text_page_main.css);
 
-.author__info-text {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+.author__info-text {    
     font-style: normal;
     font-weight: normal;
     font-size: 18px;

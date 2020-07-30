@@ -1,5 +1,4 @@
 .footer__navigation-link {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -7,4 +6,8 @@
     color: #1A1B22;
     text-decoration: none;
     cursor: url(../../../images/lapka.svg), pointer;
+}
+
+.footer__navigation-link:hover {
+    opacity: .8;
 }

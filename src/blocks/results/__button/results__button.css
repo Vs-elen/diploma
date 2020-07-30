@@ -11,12 +11,20 @@
     text-align: center;
     color: #1A1B22;
     border: none;
-    margin-top: 48px;
+    margin-top: 64px;
     margin-bottom: 80px;
+    outline: none;
 }
 
 .results__button:hover {
     background: #FFF;
-    opacity: 0.9;
+    opacity: .9;
     cursor: url(../../../images/lapka.svg), pointer;
+    border: none;
+    outline: none;
+}
+
+.results__button:active {
+    border: none;
+    outline: none;
 }

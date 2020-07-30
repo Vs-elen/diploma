@@ -5,9 +5,9 @@
 @import url(./__section-input/search__section-input.css);
 @import url(./__section-button/search__section-button.css);
 .search {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     min-height: 576px;
-    max-width: 1440px;
-    background-image: url(../../images/georgia-de-lotz.jpg);
+    background-image: url('../../images/georgia-de-lotz.jpg');
     background-size: cover;
     background-position: center;
 }

@@ -9,7 +9,8 @@
     font-family: 'Roboto';
     font-style: regular;
     font-weight: 400;
-    src: url("./fonts/roboto-regular.woff") format("woff");
+    src: url("./fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff"),
+    require("./fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2");
 }
 
 @font-face {

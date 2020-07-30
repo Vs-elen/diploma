@@ -1,13 +1,14 @@
 .statistics__link-main {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: #1A1B22;
     text-decoration: none;
+    padding-right: 2px;
 }
 
 .statistics__link-main:hover {
     cursor: url(../../../images/lapka.svg), pointer;
+    opacity: .8;
 }

@@ -1,6 +1,8 @@
 .results__cards {
-    margin-top: 50px;
-    display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  justify-items: center; 
+  max-width: 1440px;
+  align-self: center;
 }

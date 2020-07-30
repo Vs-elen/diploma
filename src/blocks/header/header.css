@@ -2,7 +2,11 @@
 @import url(./__links/header__links.css);
 @import url(./__link/header__link.css);
 .header {
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
     height: 80px;
     display: flex;
     justify-content: space-between;
+    width: calc(100% - 208px);
+    max-width: 1440px;
+    margin: auto;
 }

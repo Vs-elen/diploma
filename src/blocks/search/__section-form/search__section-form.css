@@ -11,3 +11,8 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.search__section-form:focus-within {
+    border: 1px solid #2F71E5;
+  }
+  
