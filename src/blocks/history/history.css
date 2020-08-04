@@ -1,6 +1,20 @@
 @import url(./__content/history__content.css);
+@import url(./__button/history__button.css);
+@import url(./__conatainer/history__conatainer.css);
 
 .history {
     background: #F5F6F7;
     min-height: 600px;
+}
+
+@media screen and (max-width: 769px) {
+    .history {
+        min-height: 462px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .history {
+        min-height: 362px;
+    }
 }

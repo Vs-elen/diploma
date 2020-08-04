@@ -20,9 +20,8 @@
         justify-content: flex-start;
         min-height: 64px;
         width: calc(100% - 80px);
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-bottom: 18px;
+        padding-top: 16px;
+        box-sizing: border-box;
     }
 }
 

@@ -7,4 +7,18 @@
     height: 100%;    
   }
 
+  @media screen and (max-width: 769px) {
+    .swiper-container {
+        width: calc(100%-40px);
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .swiper-container {
+      width: calc(100%-32px);
+      margin: auto;
+  }
+}
+
   

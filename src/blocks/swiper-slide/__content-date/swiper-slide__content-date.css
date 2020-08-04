@@ -7,3 +7,16 @@
     color: #B6BCBF;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 769px) {
+    .swiper-slide__content-date {
+        margin-top: 26px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .swiper-slide__content-date {
+        margin-top: 16px;
+        margin-bottom: 6px;
+    }
+}

@@ -6,3 +6,9 @@
     background: linear-gradient(to left, transparent, #F5F6F7);
     z-index: 2;
 }
+
+@media screen and (max-width: 769px) {
+    .swiper-container__shadow-left {
+        display: none;
+    }
+}

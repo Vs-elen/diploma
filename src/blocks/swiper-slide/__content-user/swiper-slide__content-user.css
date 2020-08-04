@@ -2,3 +2,9 @@
     max-width: 270px;
     padding-top: 6px;
 }
+
+@media screen and (max-width: 769px) {
+    .swiper-slide__content-user {
+        padding-top: 0;
+    }
+}

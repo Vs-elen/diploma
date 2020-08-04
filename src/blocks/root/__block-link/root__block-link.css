@@ -1,6 +1,8 @@
+@import url(./_screen_ipad/root__block-link_screen_ipad.css);
+@import url(./_page_index/root__block-link_page_index.css);
+
 .root__block-link {
     max-width: 300px;
-    display: flex;
     text-decoration: none;    
     cursor: url(../../../images/lapka.svg), pointer;
 }

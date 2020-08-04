@@ -4,3 +4,15 @@
     right: 0;
     padding-top: 38px;
 }
+
+@media screen and (max-width: 769px) {
+    .swiper-pagination {
+        padding-top: 26px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .swiper-pagination {
+        padding-top: 8px;
+    }
+}

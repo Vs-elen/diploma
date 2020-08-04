@@ -14,3 +14,9 @@
     /*   max-height:75px; */
     word-wrap: break-word;
 }
+
+@media screen and (max-width: 769px) {
+    .swiper-slide__content-info {
+        margin-top: 0;
+    }
+}

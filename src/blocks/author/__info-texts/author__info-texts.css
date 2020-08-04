@@ -1,5 +1,5 @@
-.author__info-texts {
-    margin-top: 0;
+.author__info-texts {    
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 769px) {

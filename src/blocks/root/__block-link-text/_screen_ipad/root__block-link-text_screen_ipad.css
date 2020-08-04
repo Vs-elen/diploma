@@ -1,0 +1,6 @@
+@media screen and (max-width: 769px) {
+    .root__block-link-text_screen_ipad {
+        padding-right: 30px;
+        margin-bottom: 0;
+    }
+}

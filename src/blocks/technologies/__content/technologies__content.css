@@ -5,3 +5,25 @@
     width: calc(100% - 208px);
     margin: auto;
 }
+
+@media screen and (max-width: 1240px) {
+    .technologies__content {
+     flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .technologies__content {
+        max-width: 769px;
+        width: calc(100% - 80px);
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .technologies__content {
+        max-width: 630px;
+        width: calc(100% - 32px);
+        padding-top: 40px;
+    }
+}
