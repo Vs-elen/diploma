@@ -147,18 +147,20 @@
             <article class="author__content">
                 <picture class="author__photo">
                     <source srcset="<%=require('../../images/image-03.png').default%>"
-                        media="(min-width: 768px)">
-                    <img src="<%=require('../../images/author-image-small.png').default%>" alt="Фото автора">
+                        media="(min-width: 1186px)">
+                    <source srcset="<%=require('../../images/photoiphone.png').default%>"
+                            media="(max-width: 320px)">
+                    <img src="<%=require('../../images/photo (1).png').default%>" alt="Фото автора">
                 </picture>
                 <div class="author__info">
                     <h2 class="root__block-title">Об авторе</h2>
+                    <div class="author__info-texts">
                     <p class="author__info-text author__info-text_page_main">Это блок с описанием автора проекта. Здесь
                         следует указать,
                         как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
-                    <p class="author__info-text author__info-text_page_main">Также можно рассказать о процессе обучения
-                        в Практикуме, чему вы тут
-                        научились,
-                        и чем можете помочь потенциальным заказчикам.</p>
+                    <p class="author__info-text author__info-text_page_main">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам. Если хотите, оставьте свои контакты: email 
+                        и телефон. Так заказчики смогут с вами связаться.</p>
+                    </div>
                 </div>
             </article>
         </section>

@@ -22,3 +22,45 @@
     padding-left: 104px;    
     padding-right: 104px;  
 }
+
+@media screen and (max-width: 1420px) {
+    .results {
+        padding-left: 94px;    
+    padding-right: 94px;  
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .results {
+        padding-left: 84px;    
+    padding-right: 84px;  
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .results {
+        padding-left: 70px;    
+    padding-right: 70px;  
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .results {
+        padding-left: 50px;    
+    padding-right: 50px;  
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .results {
+        padding-left: 40px;    
+    padding-right: 40px;  
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .results {
+        padding-left: 16px;    
+    padding-right: 16px;  
+    }
+}

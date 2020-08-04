@@ -7,3 +7,24 @@
     margin-top: 82px;
     margin-bottom: 80px;
 }
+
+@media screen and (max-width: 1186px) {
+    .author__content {
+        max-width: 768px;
+        width: calc(100% - 80px);
+        margin-top: 44px;
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .author__content {
+        width: calc(100% - 32px);
+        margin-top: 36px;
+     flex-direction: column;    }
+}
+
+@media screen and (max-width: 320px) {
+    .author__content {
+        margin-bottom: 40px;   }
+}

@@ -1,6 +1,46 @@
 .results__card {
-    max-width: 400px;
-    max-height: 576px;    
+    width: 400px;
+    height: 576px;    
     background: #FFF;
-    border-radius: 16px;
+    border-radius: 16px;    
 }
+
+@media screen and (max-width: 1420px) {
+    .results__card {
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .results__card {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .results__card {
+        max-width: 280px;
+        max-height: 460px
+    }
+}
+
+@media screen and (max-width: 932px) {
+    .results__card {
+        max-width: 244px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .results__card {
+        max-width: 224px;
+        max-height: 420px
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .results__card {
+        max-width: 288px;
+        max-height: 446px
+    }
+}
+

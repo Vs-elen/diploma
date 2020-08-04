@@ -1,4 +1,12 @@
 .author__info-text_page_main {
     line-height: 28px;
 }
+
+@media screen and (max-width: 1186px) {
+    .author__info-text_page_main {
+        margin-top: 10px;
+        margin-bottom: 0;
+        line-height: 24px;
+    }
+}
     

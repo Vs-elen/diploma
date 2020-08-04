@@ -1,6 +1,6 @@
 .search__section-info {
     display: block;
-    max-width: 546px;
+    max-width: 548px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -10,3 +10,31 @@
     padding-right: 60px;
     margin-top: 0;
 }
+
+@media screen and (max-width: 769px) {
+    .search__section-info {
+        padding-top: 16px;
+        max-width: 468px;
+        margin-left: 162px;
+        margin-bottom: 0;
+        padding-right: 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .search__section-info {
+        margin-left: 60px;
+        max-width: 360px;
+    }
+  }
+
+@media screen and (max-width: 411px) {
+    .search__section-info {
+        max-width: 288px;
+        margin-left: 16px;
+        font-size: 20px;
+line-height: 26px;
+    }
+  }

@@ -14,3 +14,10 @@
 .header__link:hover {
     cursor: url(../../../images/lapka.svg), pointer;
 }
+
+@media screen and (max-width: 664px) {
+    .header__link {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

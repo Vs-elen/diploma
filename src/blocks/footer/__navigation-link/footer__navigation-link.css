@@ -11,3 +11,18 @@
 .footer__navigation-link:hover {
     opacity: .8;
 }
+
+@media screen and (max-width: 970px) {
+    .footer__navigation-link {
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    .footer__navigation-link {
+    
+line-height: 48px;
+    }
+}

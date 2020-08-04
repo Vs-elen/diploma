@@ -11,3 +11,18 @@
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .search { 
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .search { 
+        min-height: 536px;
+        background-image: url('../../images/backgroundSmall.png');
+    background-size: cover;
+    background-position: center;
+    }
+}

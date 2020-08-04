@@ -3,4 +3,31 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    flex-basis: 1;
+}
+
+@media screen and (max-width: 970px) {
+    .footer__social-networks {
+        padding-left: 100px;
+        margin-top: 20px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .footer__social-networks {
+        padding-left: 236px;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    .footer__social-networks {
+        padding-left: 98px;
+    }
+}
+
+@media screen and (max-width: 354px) {
+    .footer__social-networks {
+        padding-left: 64px;
+    }
 }

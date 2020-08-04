@@ -4,3 +4,12 @@
     padding-top: 20px;
     padding-bottom: 24px;
 }
+
+@media screen and (max-width: 1200px) {
+    .results__card-info {
+        width: calc(100% - 32px);
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+

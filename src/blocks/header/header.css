@@ -3,10 +3,30 @@
 @import url(./__link/header__link.css);
 .header {
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
-    height: 80px;
+    min-height: 80px;
     display: flex;
     justify-content: space-between;
     width: calc(100% - 208px);
     max-width: 1440px;
     margin: auto;
 }
+
+@media screen and (max-width: 1200px) {
+    .header {
+        width: calc(100% - 140px);
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .header {
+        min-height: 64px;
+        width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .header {
+        min-height: 56px;    
+        width: calc(100% - 32px);
+    }
+  }

@@ -32,4 +32,10 @@
     outline:none;
 }
 
+@media screen and (max-width: 769px) {
+    .search__section-input {
+        width: 228px;
+    }
+}
+
 

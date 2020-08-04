@@ -20,3 +20,20 @@
 .search__section-button:active {
     background: #2A65CC;
 }
+
+@media screen and (max-width: 769px) {
+    .search__section-button {
+        width: 160px;
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .search__section-button {
+        width: 288px;
+        height: 56px;
+        position: absolute;
+        top: 72px
+        
+    }
+  }
