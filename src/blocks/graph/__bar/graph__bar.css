@@ -2,12 +2,12 @@
     background-color: #2F71E5;
     width: 15%;
     height: 24px;
-    margin-left: 50px;
+    margin-left: 56px;
 }
 
 @media screen and (max-width: 769px) {
     .graph__bar {
-        margin-left: 64px;
+        margin-left: 68px;
     }
 }
 

@@ -4,17 +4,17 @@
 
 .history {
     background: #F5F6F7;
-    min-height: 600px;
+    padding-bottom: 136px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1026px) {
     .history {
-        min-height: 462px;
+        padding-bottom: 80px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .history {
-        min-height: 362px;
+        padding-bottom: 0px;
     }
 }

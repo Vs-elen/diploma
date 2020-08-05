@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: baseline;
     padding-top: 72px;
-    padding-bottom: 52px;
+    padding-bottom: 42px;
 }
 
 @media screen and (max-width: 1024px) {

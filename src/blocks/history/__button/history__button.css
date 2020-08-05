@@ -11,9 +11,8 @@
     line-height: 24px;
     text-align: center;
     color: #1A1B22;
-    outline: none;
-    
-    margin-bottom: 28px;
+    outline: none;    
+    margin-bottom: 30px;
 }
 
 .history__button:hover {

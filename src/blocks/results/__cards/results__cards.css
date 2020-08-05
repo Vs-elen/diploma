@@ -4,10 +4,12 @@
   gap: 16px;
   max-width: 1440px;
   align-self: center;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 769px) {
   .results__cards {
+    margin-top: 0;
     max-width: 690px;
     gap: 8px;
   }
