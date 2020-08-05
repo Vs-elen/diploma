@@ -1,0 +1,12 @@
+.search__section {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+    .search__section {
+        align-items: flex-start;
+    }
+}

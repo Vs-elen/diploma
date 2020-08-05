@@ -1,0 +1,33 @@
+.results__card-extract {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1B22;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+    /*   for IE */
+    /*   max-height:75px; */
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 840px) {
+    .results__card-extract {
+        -webkit-line-clamp: 4;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow-y: hidden;
+        /*   for IE */
+        /*   max-height:75px; */
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .results__card-extract {
+        margin-bottom: 8px;
+    }
+}

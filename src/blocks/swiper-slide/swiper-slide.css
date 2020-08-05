@@ -1,0 +1,30 @@
+@import url(./__content-date/swiper-slide__content-date.css);
+@import url(./__content-info/swiper-slide__content-info.css);
+@import url(./__content-mail/swiper-slide__content-mail.css);
+@import url(./__content-name/swiper-slide__content-name.css);
+@import url(./__content-photo/swiper-slide__content-photo.css);
+@import url(./__content-user/swiper-slide__content-user.css);
+@import url(./__content-users/swiper-slide__content-users.css);
+@import url(./__content/swiper-slide__content.css);
+@import url(./__link/swiper-slide__link.css);
+
+.swiper-slide {
+    width: 400px;
+    height: 288px;
+    background: #fff;
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 769px) {
+    .swiper-slide {
+        width: 336px;
+        height: 242px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .swiper-slide {
+        width: 288px;
+        height: 264px;
+    }
+}

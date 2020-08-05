@@ -1,0 +1,24 @@
+.history__content {
+    max-width: 1440px;
+    width: calc(100% - 208px);
+    margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .history__content {
+        width: calc(100% - 140px);
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .history__content {
+        width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .history__content {
+        width: calc(100% - 32px);
+        padding-top: 10px;
+    }
+}

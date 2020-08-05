@@ -1,0 +1,11 @@
+.history__conatainer {
+    display: none;
+}
+
+@media screen and (max-width: 320px) {
+    .history__conatainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 46px;
+    }
+}

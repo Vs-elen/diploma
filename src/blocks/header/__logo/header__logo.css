@@ -1,0 +1,25 @@
+@import url(./_page_about/header__logo_page_about.css);
+@import url(./_page_main/header__logo_page_main.css);
+
+
+.header__logo {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 970px) {
+    .header__logo {
+        margin-top: 22px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .header__logo {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 16px;
+    }
+}

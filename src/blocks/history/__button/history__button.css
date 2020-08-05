@@ -1,0 +1,28 @@
+.history__button {
+    width: 288px;
+    height: 56px;
+    background: #F5F6F7;
+    border-radius: 80px;
+    border: 1px solid #1A1B22;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #1A1B22;
+    outline: none;    
+    margin-bottom: 30px;
+}
+
+.history__button:hover {
+    background: #ffffffe3;
+    opacity: .9;
+    cursor: url(../../../images/lapka.svg), pointer;
+    outline: none;
+}
+
+.history__button:active {
+    background: #ffffffe3;
+    outline: none;
+}

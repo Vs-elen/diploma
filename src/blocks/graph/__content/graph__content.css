@@ -1,0 +1,22 @@
+.graph__content {
+    padding-top: 56px;
+    max-width: 1440px;
+    width: calc(100% - 208px);
+    margin: auto;
+}
+
+@media screen and (max-width: 769px) {
+    .graph__content {
+        width: calc(100% - 80px);
+        padding-top: 14px;
+        padding-bottom: 28px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .graph__content {
+        width: calc(100% - 32px);
+        padding-top: 24px;
+        padding-bottom: 0;
+    }
+}

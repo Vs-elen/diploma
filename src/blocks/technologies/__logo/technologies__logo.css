@@ -1,0 +1,28 @@
+.technologies__logo {
+    margin: 0;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 769px) {
+    .technologies__logo {
+        padding-right: 66px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .technologies__logo:last-child {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .technologies__logo {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .technologies__logo {
+        padding-bottom: 32px;
+    }
+}

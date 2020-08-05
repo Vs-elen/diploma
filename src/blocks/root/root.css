@@ -1,0 +1,11 @@
+@import url(./__block-title/root__block-title.css);
+@import url(./__block-heading/root__block-heading.css);
+@import url(./__block-link/root__block-link.css);
+@import url(./__block-link-text/root__block-link-text.css);
+@import url(./__block-link-arrow/root__block-link-arrow.css);
+
+
+.root {
+    min-width: 320px;
+    margin: 0 auto;
+}

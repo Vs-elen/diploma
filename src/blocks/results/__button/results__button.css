@@ -1,0 +1,55 @@
+.results__button {
+    width: 288px;
+    height: 64px;
+    background: #FFF;
+    border-radius: 80px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #1A1B22;
+    border: none;
+    margin-top: 48px;
+    margin-bottom: 80px;
+    outline: none;
+}
+
+.results__button:hover {
+    background: #ffffffe3;
+    opacity: .9;
+    cursor: url(../../../images/lapka.svg), pointer;
+    border: none;
+    outline: none;
+}
+
+.results__button:active {
+    background: #ffffffe3;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 769px) {
+    .results__button {
+        width: 240px;
+        height: 56px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .results__button {
+        width: 288px;
+        height: 56px;
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .results__button {
+        margin-top: 0;
+    }
+}

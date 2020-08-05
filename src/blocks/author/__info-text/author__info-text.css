@@ -1,0 +1,17 @@
+@import url(./_page_about/author__info-text_page_about.css);
+@import url(./_page_main/author__info-text_page_main.css);
+
+.author__info-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+}
+
+@media screen and (max-width: 769px) {
+    .author__info-text {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

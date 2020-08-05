@@ -1,0 +1,24 @@
+.graph__heading-item {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    margin-left: 14px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 769px) {
+    .graph__heading-item {
+        margin-left: 26px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .graph__heading-item {
+        margin-left: 0;
+    }
+}

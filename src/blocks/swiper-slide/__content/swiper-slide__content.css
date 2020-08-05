@@ -1,0 +1,11 @@
+.swiper-slide__content {
+    margin: auto;
+    max-width: calc(100%-50px);
+    height: 80%;
+}
+
+@media screen and (max-width: 320px) {
+    .swiper-slide__content {
+        max-width: calc(100%-32px);
+    }
+}

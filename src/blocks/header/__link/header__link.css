@@ -1,0 +1,23 @@
+@import url(./_page_main/header__link_page_main.css);
+@import url(./_page_light/header__link_page_light.css);
+
+.header__link {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #B6BCBF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    cursor: url(../../../images/lapka.svg), pointer;
+}
+
+@media screen and (max-width: 664px) {
+    .header__link {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

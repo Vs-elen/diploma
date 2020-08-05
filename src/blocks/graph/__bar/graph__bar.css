@@ -1,0 +1,18 @@
+.graph__bar {
+    background-color: #2F71E5;
+    width: 15%;
+    height: 24px;
+    margin-left: 56px;
+}
+
+@media screen and (max-width: 769px) {
+    .graph__bar {
+        margin-left: 68px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .graph__bar {
+        margin-left: 30px;
+    }
+}

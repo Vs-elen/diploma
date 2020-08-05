@@ -1,0 +1,17 @@
+.clients__content {
+    max-width: 1440px;
+    width: calc(100% - 208px);
+    margin: auto;
+}
+
+@media screen and (max-width: 769px) {
+    .clients__content {
+        width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .clients__content {
+        width: calc(100% - 28px);
+    }
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 769px) {
+    .root__block-title_screen_ipad {
+        max-width: 300px;
+        padding-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .root__block-title_screen_ipad {
+        max-width: 160px;
+        line-height: 40px;
+    }
+}

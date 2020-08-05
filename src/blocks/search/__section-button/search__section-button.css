@@ -1,0 +1,38 @@
+.search__section-button {
+    width: 168px;
+    height: 64px;
+    background: #2F71E5;
+    border-radius: 100px;
+    border: none;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.search__section-button:hover {
+    background: #347EFF;
+    cursor: url(../../../images/lapka.svg), pointer;
+}
+
+.search__section-button:active {
+    background: #2A65CC;
+}
+
+@media screen and (max-width: 769px) {
+    .search__section-button {
+        width: 160px;
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .search__section-button {
+        width: 288px;
+        height: 56px;
+        position: absolute;
+        top: 72px
+    }
+}

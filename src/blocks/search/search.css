@@ -1,0 +1,29 @@
+@import url(./__section/search__section.css);
+@import url(./__section-heading/search__section-heading.css);
+@import url(./__section-info/search__section-info.css);
+@import url(./__section-form/search__section-form.css);
+@import url(./__section-input/search__section-input.css);
+@import url(./__section-button/search__section-button.css);
+
+.search {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    min-height: 576px;
+    background-image: url('../../images/georgia-de-lotz.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .search {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .search {
+        min-height: 536px;
+        background-image: url('../../images/backgroundSmall.png');
+        background-size: cover;
+        background-position: center;
+    }
+}

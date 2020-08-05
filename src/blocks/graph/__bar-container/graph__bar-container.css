@@ -1,0 +1,22 @@
+.graph__bar-container {
+    margin-top: 12px;
+    margin-bottom: 56px;
+    display: flex;
+}
+
+.graph__bar-container:last-child {
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 769px) {
+    .graph__bar-container {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .graph__bar-container {
+        margin-top: 20px;
+        margin-bottom: 24px;
+    }
+}

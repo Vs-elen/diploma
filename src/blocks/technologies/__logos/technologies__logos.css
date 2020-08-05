@@ -1,0 +1,34 @@
+.technologies__logos {
+    margin-top: 10px;
+    margin-left: 180px;
+    max-width: 590px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1240px) {
+    .technologies__logos {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .technologies__logos {
+        max-width: 664px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .technologies__logos {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .technologies__logos {
+        margin-top: 44px;
+        max-width: 270px;
+    }
+}

@@ -1,0 +1,5 @@
+.results__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}

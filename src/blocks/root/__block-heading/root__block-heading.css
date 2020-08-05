@@ -1,0 +1,29 @@
+.root__block-heading {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 72px;
+    padding-bottom: 42px;
+}
+
+@media screen and (max-width: 1024px) {
+    .root__block-heading {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .root__block-heading {
+        padding-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .root__block-heading {
+        flex-direction: column;
+    }
+}

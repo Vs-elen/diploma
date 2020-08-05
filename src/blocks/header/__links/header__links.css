@@ -1,0 +1,19 @@
+.header__links {
+    margin-top: 30px;
+    min-width: 192px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 769px) {
+    .header__links {
+        margin-top: 22px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .header__links {
+        margin-top: 16px;
+        min-width: 152px;
+    }
+}

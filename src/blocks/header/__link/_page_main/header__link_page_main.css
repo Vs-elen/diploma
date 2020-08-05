@@ -1,0 +1,9 @@
+.header__link_page_main:hover {
+    color: #FFF;
+    border-bottom: 3px solid #FFF;
+}
+
+.header__link_page_main:active {
+    color: #FFF;
+    border: none;
+}
