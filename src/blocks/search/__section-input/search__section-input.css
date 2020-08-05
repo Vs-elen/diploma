@@ -8,7 +8,7 @@
     color: #1A1B22;
     margin-left: 24px;
     border: none;
-    outline:none;
+    outline: none;
     background-color: white;
     caret-color: #347EFF;
 }
@@ -22,14 +22,12 @@
 }
 
 .search__section-input:active:hover {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1A1B22;
-    margin-left: 24px;
     border: none;
-    outline:none;
+    outline: none;
+}
+
+.search__section-input:focus {
+    background: #FFF;
 }
 
 @media screen and (max-width: 769px) {
@@ -37,5 +35,3 @@
         width: 228px;
     }
 }
-
-

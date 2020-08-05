@@ -28,13 +28,13 @@
         margin-left: 60px;
         max-width: 360px;
     }
-  }
+}
 
 @media screen and (max-width: 411px) {
     .search__section-info {
         max-width: 288px;
         margin-left: 16px;
         font-size: 20px;
-line-height: 26px;
+        line-height: 26px;
     }
-  }
+}

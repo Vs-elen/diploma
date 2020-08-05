@@ -42,7 +42,7 @@
 @media screen and (max-width: 664px) {
     .results__button {
         width: 288px;
-height: 56px;
+        height: 56px;
         margin-top: 32px;
         margin-bottom: 40px;
     }
@@ -52,5 +52,4 @@ height: 56px;
     .results__button {
         margin-top: 0;
     }
-  }
-
+}

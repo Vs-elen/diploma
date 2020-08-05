@@ -1,8 +1,18 @@
 .graph__bar {
     background-color: #2F71E5;
-    display: inline-block;
-    vertical-align: middle;
     width: 15%;
     height: 24px;
     margin-left: 50px;
+}
+
+@media screen and (max-width: 769px) {
+    .graph__bar {
+        margin-left: 64px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .graph__bar {
+        margin-left: 30px;
+    }
 }

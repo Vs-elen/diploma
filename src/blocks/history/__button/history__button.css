@@ -1,7 +1,7 @@
 .history__button {
     width: 288px;
     height: 56px;
-    background: #F5F6F7;;
+    background: #F5F6F7;
     border-radius: 80px;
     border: 1px solid #1A1B22;
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -11,10 +11,9 @@
     line-height: 24px;
     text-align: center;
     color: #1A1B22;
-    margin-top: 48px;
-    margin-bottom: 32px;
     outline: none;
     
+    margin-bottom: 28px;
 }
 
 .history__button:hover {

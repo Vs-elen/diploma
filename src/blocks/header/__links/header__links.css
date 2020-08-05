@@ -5,10 +5,9 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 664px) {
+@media screen and (max-width: 769px) {
     .header__links {
         margin-top: 22px;
-        min-width: 152px;
     }
 }
 

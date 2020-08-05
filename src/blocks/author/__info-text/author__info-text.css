@@ -1,7 +1,7 @@
 @import url(./_page_about/author__info-text_page_about.css);
 @import url(./_page_main/author__info-text_page_main.css);
 
-.author__info-text {    
+.author__info-text {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 769px) {
     .author__info-text {
-        margin-top: 0;        
-    margin-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
-  }
+}

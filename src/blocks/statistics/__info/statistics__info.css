@@ -3,3 +3,9 @@
     padding: 0;
     margin-top: 24px;
 }
+
+@media screen and (max-width: 322px) {
+    .statistics__info {
+        margin-top: 18px;
+    }
+}

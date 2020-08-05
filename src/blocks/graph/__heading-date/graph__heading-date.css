@@ -10,3 +10,10 @@
     color: #B6BCBF;
     margin-bottom: 12px;
 }
+
+@media screen and (max-width: 322px) {
+    .graph__heading-date {
+        max-width: 80px;
+        margin-bottom: 8px;
+    }
+}

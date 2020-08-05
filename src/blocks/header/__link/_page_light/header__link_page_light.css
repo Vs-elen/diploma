@@ -1,9 +1,9 @@
 .header__link_page_light:hover {
-    color: #1A1B22;;
-    border-bottom: 3px solid #1A1B22;;
+    color: #1A1B22;
+    border-bottom: 3px solid #1A1B22;
 }
 
 .header__link_page_light:active {
-    color: #1A1B22;;
+    color: #1A1B22;
     border: none;
 }

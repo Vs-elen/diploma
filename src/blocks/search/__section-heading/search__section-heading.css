@@ -24,7 +24,7 @@
     .search__section-heading {
         margin-left: 60px;
     }
-  }
+}
 
 @media screen and (max-width: 411px) {
     .search__section-heading {
@@ -32,4 +32,4 @@
         margin-left: 16px;
         padding-top: 30px;
     }
-  }
+}

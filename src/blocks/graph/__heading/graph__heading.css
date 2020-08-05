@@ -1,5 +1,11 @@
 .graph__heading {
     padding-top: 8px;
     display: flex;
-    border-bottom: 1px solid #1A1B22;  
+    border-bottom: 1px solid #1A1B22;
+}
+
+@media screen and (max-width: 322px) {
+    .graph__heading {
+        padding-top: 0;
+    }
 }

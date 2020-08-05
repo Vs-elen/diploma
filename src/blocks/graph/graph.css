@@ -15,3 +15,15 @@
     background: #F5F6F7;
     padding-bottom: 82px;
 }
+
+@media screen and (max-width: 769px) {
+    .graph {
+        padding-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .graph {
+        padding-bottom: 16px;
+    }
+}

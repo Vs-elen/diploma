@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1240px) {
     .technologies__content {
-     flex-direction: column;
+        flex-direction: column;
     }
 }
 

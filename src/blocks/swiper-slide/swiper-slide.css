@@ -12,20 +12,19 @@
     width: 400px;
     height: 288px;
     background: #fff;
-    border-radius: 16px;    
+    border-radius: 16px;
 }
 
 @media screen and (max-width: 769px) {
     .swiper-slide {
         width: 336px;
-height: 242px;
+        height: 242px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .swiper-slide {
         width: 288px;
-height: 264px;
+        height: 264px;
     }
 }
-

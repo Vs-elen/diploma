@@ -5,3 +5,15 @@
     padding-left: 0;
     padding-bottom: 78px;
 }
+
+@media screen and (max-width: 769px) {
+    .statistics__links {
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .statistics__links {
+        display: none;
+    }
+}

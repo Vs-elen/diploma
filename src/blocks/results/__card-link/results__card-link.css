@@ -1,4 +1,4 @@
-.results__card-link {    
+.results__card-link {
     text-decoration: none;
     cursor: url(../../../images/lapka.svg), pointer;
     max-width: 400px;
@@ -6,7 +6,7 @@
 }
 
 .results__card-link:hover {
-    box-shadow: 2px 2px 4px #D1D2D6;;    
+    box-shadow: 2px 2px 4px #D1D2D6;
+    ;
     border-radius: 16px;
 }
-

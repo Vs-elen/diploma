@@ -1,8 +1,8 @@
 .results__card {
     width: 400px;
-    height: 576px;    
+    height: 576px;
     background: #FFF;
-    border-radius: 16px;    
+    border-radius: 16px;
 }
 
 @media screen and (max-width: 1420px) {
@@ -43,4 +43,3 @@
         max-height: 446px
     }
 }
-
