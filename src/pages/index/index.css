@@ -8,6 +8,7 @@
 @import url(../../blocks/author/author.css);
 @import url(../../blocks/footer/footer.css);
 @import url(../../blocks/root/root.css);
+@import url(../../blocks/error/error.css);
 
 body {
    margin: 0;   
