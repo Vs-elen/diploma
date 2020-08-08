@@ -5,7 +5,5 @@
     display: block;
     margin: 4px 0 0 26px;
     box-sizing: border-box;
-    height: 25px;
-    position: absolute;
-    bottom: 4px;    
+    height: 25px;  
   }

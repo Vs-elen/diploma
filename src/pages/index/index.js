@@ -5,4 +5,7 @@ const searchButton = document.querySelector('.search__section-button');
 
 const searchInput = new SearchInput(searchButton);
 
+
 searchInput.setSubmitButtonState();
+
+
