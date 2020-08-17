@@ -7,3 +7,12 @@ export function formatDate(date) {
     let newDateCommit = (day + ' ' + month + ', ' + year);
     return newDateCommit;
 }
+
+export function formatDateForGraph(date) {
+    let newDate = new Date(date);
+    let weeks = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+    let day = newDate.getDate();
+    let week = weeks[newDate.getDay()];
+    let newDateCommit = (day + ', ' + week);
+    return newDateCommit;
+}

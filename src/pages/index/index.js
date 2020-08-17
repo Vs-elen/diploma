@@ -55,7 +55,6 @@ function sendQueryCallback(event) {
 
     newsApi.getNews(searchSectionInput.value)
         .then((res) => {
-            console.log(res.articles)
             if (res.articles.length === 0) {
                 failedBlock.style.display = 'flex';
                 preloaderBlock.classList.add("preloader_style_hidden");

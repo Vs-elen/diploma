@@ -20,7 +20,5 @@ export default class Statistics {
             }
         });
         return (titlesNumber.length);
-    }
-
-    
+    }    
 }
