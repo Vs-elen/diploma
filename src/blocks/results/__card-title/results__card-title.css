@@ -6,6 +6,13 @@
     line-height: 30px;
     color: #1A1B22;
     margin: 0;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+    /*   for IE */
+    /*   max-height:75px; */
+    word-wrap: break-word;
 }
 
 @media screen and (max-width: 1200px) {

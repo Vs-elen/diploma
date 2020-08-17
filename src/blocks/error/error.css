@@ -1,9 +1,20 @@
 .error {
-    font-size: 12px;
-    line-height: 14px;
-    color: #FF0000;
-    display: block;
-    margin: 4px 0 0 26px;
-    box-sizing: border-box;
-    height: 25px;  
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #B6BCBF;
+  display: block;
+  margin: 4px 0 0 26px;
+  box-sizing: border-box;
+  height: 25px;
+  position: absolute;
+  top: 60px;
+}
+
+@media screen and (max-width: 664px) {
+  .error {
+    font-size: 14px;
   }
+}

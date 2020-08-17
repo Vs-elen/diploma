@@ -1,4 +1,4 @@
-import { formatDate } from '../utils/commit-date-function';
+import { formatDate } from '../utils/format-date';
 
 export default class CommitCard {
     static template = document.querySelector('#swiper-slide__template').content;
@@ -13,7 +13,7 @@ export default class CommitCard {
     }
 
     create = () => {
-        let commitDate = formatDate(this.date);
+        const commitDate = formatDate(this.date);
 
 
         this.commitCard = CommitCard.template.cloneNode(true).children[0];
