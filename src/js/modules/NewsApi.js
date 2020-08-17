@@ -2,6 +2,7 @@ import { showLastWeek } from '../utils/show-last-week-function'
 import { setToday } from '../utils/set-today'
 import { NEWS_API } from '../constants/constants'
 
+
 export default class NewsApi {
     constructor() {
         this.apiKey = NEWS_API;
@@ -17,8 +18,7 @@ export default class NewsApi {
             .then(res => {
                 if (res.ok) {
                     return res.json();
-
-                }
+                } 
                 return Promise.reject(`Ошибка: ${res.status}`);
             })
     }
