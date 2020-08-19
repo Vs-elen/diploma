@@ -97,8 +97,8 @@ function showMore() {
         resultsBlock.style.display = 'none';
     } else {
         resultsBlock.style.display = 'flex';
-        const list = cardsFromStorage.slice(CURRENT_CONTAINER_SIZE, CURRENT_CONTAINER_SIZE + INITIAL_CONTAINER);
-        list.map((item) => {
+        const slicedCards = cardsFromStorage.slice(CURRENT_CONTAINER_SIZE, CURRENT_CONTAINER_SIZE + INITIAL_CONTAINER);
+        slicedCards.map((item) => {
             showNewsCards(item)
         });
         CURRENT_CONTAINER_SIZE += INITIAL_CONTAINER;
