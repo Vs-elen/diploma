@@ -47,7 +47,7 @@ module.exports = {
 			},
 
 			{
-				test: /\.(gif|png|jpe?g|svg|ico)$/i,
+				test: /\.(png|jpg|jpeg|gif|ico|svg)$/i,
 				use: [
 					{
 						loader: 'file-loader?name=./images/[name].[ext]',
@@ -74,11 +74,7 @@ module.exports = {
 						},
 						gifsicle: {
 							interlaced: false,
-						},
-						// the webp option will enable WEBP
-						webp: {
-							quality: 75
-						}
+						}						
 					}
 				},
 				],

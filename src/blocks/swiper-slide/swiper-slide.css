@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 688px) {
     .swiper-slide {
         width: 288px;
         height: 264px;
