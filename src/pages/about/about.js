@@ -3,7 +3,7 @@ import '../../blocks/swiper/swiper.js';
 import CommitCard from '../../js/components/CommitCard';
 import CommitCardList from '../../js/components/CommitCardList';
 import GithubApi from '../../js/modules/GithubApi';
-import {swiper} from '../../blocks/swiper/swiper';
+import { swiper } from '../../blocks/swiper/swiper';
 
 const swiperContainer = document.querySelector('.swiper-wrapper');
 
@@ -13,22 +13,16 @@ function createCommitCard(...args) {
 }
 
 const commitCardList = new CommitCardList(swiperContainer, createCommitCard)
-
-
-
 const commitApi = new GithubApi();
 
 commitApi.getCommits()
-.then((res) => {
-    res.forEach(item => {
-        commitCardList.addCommitCard(item.commit.author.date, item.commit.author.name,
-      item.commit.author.email, item.commit.message, item.author.avatar_url);        
+    .then((res) => {
+        res.forEach(item => {
+            commitCardList.addCommitCard(item.commit.author.date, item.commit.author.name,
+                item.commit.author.email, item.commit.message, item.author.avatar_url);
+        });
+        swiper.init();
+    })
+    .catch((err) => {
+        console.log(err);
     });
-    swiper.init();
-})
-.catch((err) => {
-console.log(err);
-});
-
-
- 

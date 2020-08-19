@@ -1,12 +1,12 @@
 export default class CommitCardList { 
 
 constructor(container, callbackCard) {
-    this.container = container;
-    this.callbackCard = callbackCard;
+    this._container = container;
+    this._callbackCard = callbackCard;
 }
 
 addCommitCard = (date, name, mail, info, link) => {
-    const instance = this.callbackCard(date, name, mail, info, link);
-    this.container.append(instance);
+    const _instance = this._callbackCard(date, name, mail, info, link);
+    this._container.append(_instance);
 }
 }

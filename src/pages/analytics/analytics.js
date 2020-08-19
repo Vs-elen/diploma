@@ -4,6 +4,12 @@ import Statistics from '../../js/components/Statistics';
 import GraphDiagram from '../../js/utils/GraphDiagram';
 
 import { formatDateForGraph } from '../../js/utils/format-date';
+import { getMonth } from '../../js/utils/get-month';
+import { sortArrayByDate } from '../../js/utils/sort-array-by-date';
+import {
+    SAME_DATE_CARD,
+    ONE_HUNDRED_PERCENT
+} from '../../js/constants/constants';
 
 
 
@@ -23,46 +29,35 @@ const statisticsCardsQueries = statisticsQueryStorage.getCards();
 
 const statistics = new Statistics(statisticsCards, statisticsCardsQueries)
 
-
 statistics.changeData(statisticsQuery, statisticsPerWeek, statisticsPerTitles);
 
+getMonth(statisticsCards, currentMonth);
+sortArrayByDate(statisticsCards);
 
-
-function getMonth() {
-    statisticsCards.forEach(card => {
-        const thisMonth = new Date(card.publishedAt).toLocaleString('ru', { month: 'long' });
-        currentMonth.textContent = `(${thisMonth.toUpperCase()})`;
-    });
-}
-
-getMonth()
-
-let dateArray = {};
+let datesArray = {};
 
 function getDate() {
     statisticsCards.forEach((card) => {
-        const thisDate = formatDateForGraph(card.publishedAt);
-        if (thisDate in dateArray) {
-            dateArray[thisDate] = dateArray[thisDate] + 1
+        const currentDate = formatDateForGraph(card.publishedAt);
+        if (currentDate in datesArray) {
+            datesArray[currentDate] = datesArray[currentDate] + SAME_DATE_CARD;
         } else {
-            dateArray[thisDate] = 1
+            datesArray[currentDate] = SAME_DATE_CARD;
         }
     });
-    for (let percentage in dateArray) {
-        dateArray[percentage] = Math.round(dateArray[percentage] / statisticsCards.length * 100)
-
+    for (let percentage in datesArray) {
+        datesArray[percentage] = Math.round(datesArray[percentage] / statisticsCards.length * ONE_HUNDRED_PERCENT);
     }
-    return (dateArray)
+    return (datesArray)
 
 }
-
 
 getDate()
 
 
 function renderBar() {
-    for (let key in dateArray) {
-        const graphDiagram = new GraphDiagram(graphContainer, key, dateArray[key]);
+    for (let key in datesArray) {
+        const graphDiagram = new GraphDiagram(graphContainer, key, datesArray[key]);
         graphDiagram.renderGraphBar()
     }
 }

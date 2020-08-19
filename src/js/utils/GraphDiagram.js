@@ -2,23 +2,23 @@ export default class GraphDiagram {
     static template = document.querySelector('#graph__diagram-template').content;
 
     constructor(container, date, percent) {
-        this.container = container;
-        this.date = date;
-        this.percent = percent;
+        this._container = container;
+        this._date = date;
+        this._percent = percent;
 
     }
 
-    createGraphBar = () => {
-        this.graphBar = GraphDiagram.template.cloneNode(true).children[0];
-        this.graphBar.querySelector('.graph__bar-label').textContent = this.date;
-        this.graphBar.querySelector('.graph__bar-percent').textContent = this.percent;
-        this.graphBar.querySelector('.graph__bar').style.width = `${this.percent}%`;
-        return this.graphBar;
+    _createGraphBar = () => {
+        this._graphBar = GraphDiagram.template.cloneNode(true).children[0];
+        this._graphBar.querySelector('.graph__bar-label').textContent = this._date;
+        this._graphBar.querySelector('.graph__bar-percent').textContent = this._percent;
+        this._graphBar.querySelector('.graph__bar').style.width = `${this._percent}%`;
+        return this._graphBar;
     }
 
     renderGraphBar = () => {
-        const instance = this.createGraphBar();
-        this.container.append(instance);
+        const instance = this._createGraphBar();
+        this._container.append(instance);
     }
 
 }

@@ -3,13 +3,13 @@ import { ERROR_MESSAGES } from '../constants/error-messages';
 export default class ValidateForm  {
     constructor (input, form, button) {
         this.errorMessages = ERROR_MESSAGES;
-        this.input = input;
-        this.form = form;
-        this.submitButton = button;
-        this.setEventListeners();
+        this._input = input;
+        this._form = form;
+        this._submitButton = button;
+        this._setEventListeners();
     }
 
-    checkInputValidity(input) {
+    _checkInputValidity(input) {
 
         input.setCustomValidity("");
     
@@ -29,32 +29,32 @@ export default class ValidateForm  {
       }
     
       isFormValid = () => {
-        if (this.input.type !== 'submit' && this.input.type !== 'button') {
-          this.input.parentNode.querySelector(`#${this.input.id}-error`).textContent = this.checkInputValidity(this.input) ? '' : this.input.validationMessage;
+        if (this._input.type !== 'submit' && this._input.type !== 'button') {
+          this._input.parentNode.querySelector(`#${this._input.id}-error`).textContent = this._checkInputValidity(this._input) ? '' : this._input.validationMessage;
         }
       }
     
       setSubmitButtonState = (state) => {
     
         if (state) {
-          this.submitButton.removeAttribute('disabled');
+          this._submitButton.removeAttribute('disabled');
     
         } else {
-          this.submitButton.setAttribute('disabled', '');
+          this._submitButton.setAttribute('disabled', '');
         }
       }
     
       handlerInputForm = (evt) => {
         this.isFormValid(evt.target);
-        if (this.form.checkValidity()) {
+        if (this._form.checkValidity()) {
           this.setSubmitButtonState(true);
         } else {
           this.setSubmitButtonState(false)
         }
       }
     
-      setEventListeners = () => {
-        this.form.addEventListener('input', this.isFormValid);
-        this.form.addEventListener('input', this.handlerInputForm, true);
+      _setEventListeners = () => {
+        this._form.addEventListener('input', this.isFormValid);
+        this._form.addEventListener('input', this.handlerInputForm, true);
       }
 }

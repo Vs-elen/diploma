@@ -1,8 +1,10 @@
 .results__card-link {
     text-decoration: none;
     cursor: url(../../../images/lapka.svg), pointer;
-    max-width: 400px;
-    flex-shrink: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
 }
 
 .results__card-link:hover {

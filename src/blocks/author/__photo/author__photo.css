@@ -12,12 +12,19 @@
     }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 768px) {
+    .author__photo {
+        margin-top: 8px;
+    }
+}
+
+
+@media screen and (max-width: 668px) {
     .author__photo {
         width: 272px;
         height: 272px;
         margin-top: 0;
         margin-bottom: 28px;
-        margin-left: 8px;
+        margin-left: 4px;
     }
 }

@@ -1,24 +1,23 @@
 export default class Statistics {
     constructor(cards, queries) {
-        this.storedCards = {};
-        this.cards = cards;
-        this.queries = queries;
+        this._cards = cards;
+        this._queries = queries;
     }
 
     changeData = (title, perWeek, perTitle) => {
-        title.textContent = this.queries;
-        perWeek.textContent = this.cards.length;
-        perTitle.textContent = this.countTitles(this.queries);
+        title.textContent = this._queries;
+        perWeek.textContent = this._cards.length;
+        perTitle.textContent = this._countTitles(this._queries);
         
     }
 
-    countTitles = (heading) => {
-        const titlesNumber = this.cards.filter(function (card) {
+    _countTitles = (heading) => {
+        const _titlesNumber = this._cards.filter(function (card) {
 
             if (card.title.toLowerCase().includes(heading.toLowerCase())) {
                 return card;
             }
         });
-        return (titlesNumber.length);
+        return (_titlesNumber.length);
     }    
 }

@@ -1,16 +1,12 @@
 export default class NewsCardList {
     
-    constructor(container, callbackCard, button) {
-        this.container = container;
-        this.callbackCard = callbackCard;
-        this.button = button;     
+    constructor(container, callbackCard) {
+        this._container = container;
+        this._callbackCard = callbackCard;
     }
     
     addNewsCard = (...args) => {
-        const instance = this.callbackCard(...args);
-        this.container.append(instance);
+        const _instance = this._callbackCard(...args);
+        this._container.append(_instance);
     }
-
-
-   
 }

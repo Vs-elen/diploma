@@ -57,7 +57,8 @@
             <div class="results__cards">
                 <template id="results__cards-template">
                     
-                        <div class="results__card"> <a href="" class="results__card-link" target="_blank">
+                        <div class="results__card"> 
+                            <a href="" class="results__card-link" target="_blank">
                             <div class="results__card-image"></div>
                             <div class="results__card-info">
                                 <div class="results__card-date">2 августа, 2019</div>
@@ -79,21 +80,19 @@
         <section class="author">
             <article class="author__content">
                 <picture class="author__photo">
-                    <source srcset="<%=require('../../images/image-03.png').default%>" media="(min-width: 1186px)">
-                    <source srcset="<%=require('../../images/photoiphone.png').default%>" media="(max-width: 320px)">
-                    <img src="<%=require('../../images/photo_author.png').default%>" alt="Фото автора">
+                    <source class="author__photo" srcset="<%=require('../../images/464photo.jpg').default%>" media="(min-width: 1186px)">
+                    <img  class="author__photo" src="<%=require('../../images/464photo.jpg').default%>" alt="Фото автора">
                 </picture>
                 <div class="author__info">
                     <h2 class="root__block-title">Об авторе</h2>
                     <div class="author__info-texts">
-                        <p class="author__info-text author__info-text_page_main">Это блок с описанием автора проекта.
-                            Здесь
-                            следует указать,
-                            как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
-                        <p class="author__info-text author__info-text_page_main">Также можно рассказать о процессе
-                            обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.
-                            Если хотите, оставьте свои контакты: email
-                            и телефон. Так заказчики смогут с вами связаться.</p>
+                        <p class="author__info-text author__info-text_page_main">
+                            Елена Всяких, Junior Frontend-разработчик.</p>
+                        <p class="author__info-text author__info-text_page_main">Прошла образовательный курс обучения
+                            в Яндекс.Практикуме. Владею навыками работы с HTML, CSS, JavaScript. 
+                            Также имею опыт работы с Git, Figma, Webpack, БЭМ.
+                            Вы можете связаться со мной, написав мне на <a href="mailto: elenvsiakikh@gmail.com"
+                            style="text-decoration: none;">почту</a>.</p>
                     </div>
                 </div>
             </article>
@@ -117,7 +116,7 @@
                 </nav>
                 <ul class="footer__social-networks">
                     <li class="footer__social-icon">
-                        <a href="https://github.com/" class="footer__icon-link" target="_blank">
+                        <a href="https://github.com/Vs-elen/" class="footer__icon-link" target="_blank">
                             <img src="<%=require('../../images/github.svg').default%>" alt="Иконка Github"
                                 class="footer__icon-pic">
                         </a>
