@@ -1,16 +1,16 @@
 import './swiper-bundle.min.js';
 
-var swiper = new Swiper('.swiper-container', {
+export var swiper = new Swiper('.swiper-container', {
   slidesPerView: 3.5,
   centeredSlides: true,
   spaceBetween: 16,
   slidesPerGroup: 3,
   breakpoints: {
     320: {
-      slidesPerView: 1,
-      centeredSlides: false,
+      slidesPerView: 1.1,
+      centeredSlides: false,      
     },
-    500: {
+    688: {
       slidesPerView: 2.2,
       slidesPerGroup: 2,
       spaceBetween: 8,
@@ -22,6 +22,7 @@ var swiper = new Swiper('.swiper-container', {
       spaceBetween: 16
     }
   },
+  init: false,
   loop: true,
   loopFillGroupWithBlank: false,
   pagination: {

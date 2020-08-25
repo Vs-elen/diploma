@@ -86,22 +86,19 @@
         <section class="author">
             <article class="author__content">
                 <picture class="author__photo">
-                    <source srcset="<%=require('../../images/image-03.png').default%>" media="(min-width: 1186px)">
-                    <source srcset="<%=require('../../images/photoiphone.png').default%>" media="(max-width: 320px)">
-                    <img src="<%=require('../../images/photo_author.png').default%>" alt="Фото автора">
+                    <source class="author__photo" srcset="<%=require('../../images/464photo.jpg').default%>" media="(min-width: 1186px)">
+                        <img  class="author__photo" src="<%=require('../../images/464photo.jpg').default%>" alt="Фото автора">
                 </picture>
                 <div class="author__info">
                     <h2 class="root__block-title">Об авторе</h2>
                     <div class="author__info-texts">
-                        <p class="author__info-text author__info-text_page_about">Это блок с описанием автора проекта.
-                            Здесь
-                            следует указать,
-                            как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+                        <p class="author__info-text author__info-text_page_about">Елена Всяких, Junior
+                            Frontend-разработчик.</p>
                         <p class="author__info-text author__info-text_page_about">
-                            Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете
-                            помочь потенциальным заказчикам.
-                            <br> Если хотите, оставьте свои контакты: email и телефон. Так заказчики смогут с вами
-                            связаться.
+                            Прошла образовательный курс обучения
+                            в Яндекс.Практикуме. Владею навыками работы с HTML, CSS, JavaScript.
+                            Также имею опыт работы с Git, Figma, Webpack, БЭМ.
+                            Вы можете связаться со мной, написав мне на elenvsiakikh@gmail.com.
                         </p>
                     </div>
                 </div>
@@ -111,7 +108,7 @@
             <div class="history__content">
                 <div class="root__block-heading">
                     <h2 class="root__block-title root__block-title_screen_ipad">История коммитов из GitHub</h2>
-                    <a href="analytics.html" class="root__block-link root__block-link_screen_ipad" target="_blank">
+                    <a href="https://github.com/Vs-elen/diploma" class="root__block-link root__block-link_screen_ipad" target="_blank">
                         <p class="root__block-link-text root__block-link-text_screen_ipad">Открыть в Github</p>
                         <img src="<%=require('../../images/back.svg').default%>" alt="Стрелка вперед"
                             class="root__block-link-arrow">
@@ -122,150 +119,26 @@
                 <div class="swiper-container__shadow-left"></div>
                 <div class="swiper-container__shadow-right"></div>
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="https://github.com/" class="swiper-slide__link" target="_blank">
-                            <div class="swiper-slide__content">
-                                <p class="swiper-slide__content-date">14 августа, 2019</p>
-                                <div class="swiper-slide__content-users">
-                                    <img src="<%=require('../../images/anton.png').default%>"
-                                        class="swiper-slide__content-photo" alt="Фото разработчика">
-                                    <div class="swiper-slide__content-user">
-                                        <h3 class="swiper-slide__content-name">Антон Долинин</h3>
-                                        <p class="swiper-slide__content-mail">anton@yandex.ru</p>
+                    <template id="swiper-slide__template">
+                        <div class="swiper-slide">
+                            <a href="https://github.com/Vs-elen/diploma" class="swiper-slide__link" target="_blank">
+                                <div class="swiper-slide__content">
+                                    <p class="swiper-slide__content-date">14 августа, 2019</p>
+                                    <div class="swiper-slide__content-users">
+                                        <img src="<%=require('../../images/anton.png').default%>"
+                                            class="swiper-slide__content-photo" alt="Фото разработчика">
+                                        <div class="swiper-slide__content-user">
+                                            <h3 class="swiper-slide__content-name">Антон Долинин</h3>
+                                            <p class="swiper-slide__content-mail">anton@yandex.ru</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <p class="swiper-slide__content-info">Emmet (formerly Zen Coding) is a web-
-                                    developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+                                    <p class="swiper-slide__content-info">Emmet (formerly Zen Coding) is a web-
+                                        developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
 
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://github.com/" class="swiper-slide__link" target="_blank">
-                            <div class="swiper-slide__content">
-                                <p class="swiper-slide__content-date">14 августа, 2019</p>
-                                <div class="swiper-slide__content-users">
-                                    <img src="<%=require('../../images/anton.png').default%>"
-                                        class="swiper-slide__content-photo" alt="Фото разработчика">
-                                    <div class="swiper-slide__content-user">
-                                        <h3 class="swiper-slide__content-name">Антон Долинин</h3>
-                                        <p class="swiper-slide__content-mail">anton@yandex.ru</p>
-                                    </div>
                                 </div>
-                                <p class="swiper-slide__content-info">Emmet (formerly Zen Coding) is a web-
-                                    developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://github.com/" class="swiper-slide__link" target="_blank">
-                            <div class="swiper-slide__content">
-                                <p class="swiper-slide__content-date">14 августа, 2019</p>
-                                <div class="swiper-slide__content-users">
-                                    <img src="<%=require('../../images/anton.png').default%>"
-                                        class="swiper-slide__content-photo" alt="Фото разработчика">
-                                    <div class="swiper-slide__content-user">
-                                        <h3 class="swiper-slide__content-name">Антон Долинин</h3>
-                                        <p class="swiper-slide__content-mail">anton@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="swiper-slide__content-info">Emmet (formerly Zen Coding) is a web-
-                                    developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://github.com/" class="swiper-slide__link" target="_blank">
-                            <div class="swiper-slide__content">
-                                <p class="swiper-slide__content-date">14 августа, 2019</p>
-                                <div class="swiper-slide__content-users">
-                                    <img src="<%=require('../../images/anton.png').default%>"
-                                        class="swiper-slide__content-photo" alt="Фото разработчика">
-                                    <div class="swiper-slide__content-user">
-                                        <h3 class="swiper-slide__content-name">Антон Долинин</h3>
-                                        <p class="swiper-slide__content-mail">anton@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="swiper-slide__content-info">Emmet (formerly Zen Coding) is a web-
-                                    developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://github.com/" class="swiper-slide__link" target="_blank">
-                            <div class="swiper-slide__content">
-                                <p class="swiper-slide__content-date">14 августа, 2019</p>
-                                <div class="swiper-slide__content-users">
-                                    <img src="<%=require('../../images/anton.png').default%>"
-                                        class="swiper-slide__content-photo" alt="Фото разработчика">
-                                    <div class="swiper-slide__content-user">
-                                        <h3 class="swiper-slide__content-name">Антон Долинин</h3>
-                                        <p class="swiper-slide__content-mail">anton@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="swiper-slide__content-info">Emmet (formerly Zen Coding) is a web-
-                                    developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://github.com/" class="swiper-slide__link" target="_blank">
-                            <div class="swiper-slide__content">
-                                <p class="swiper-slide__content-date">14 августа, 2019</p>
-                                <div class="swiper-slide__content-users">
-                                    <img src="<%=require('../../images/anton.png').default%>"
-                                        class="swiper-slide__content-photo" alt="Фото разработчика">
-                                    <div class="swiper-slide__content-user">
-                                        <h3 class="swiper-slide__content-name">Антон Долинин</h3>
-                                        <p class="swiper-slide__content-mail">anton@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="swiper-slide__content-info">Emmet (formerly Zen Coding) is a web-
-                                    developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://github.com/" class="swiper-slide__link" target="_blank">
-                            <div class="swiper-slide__content">
-                                <p class="swiper-slide__content-date">14 августа, 2019</p>
-                                <div class="swiper-slide__content-users">
-                                    <img src="<%=require('../../images/anton.png').default%>"
-                                        class="swiper-slide__content-photo" alt="Фото разработчика">
-                                    <div class="swiper-slide__content-user">
-                                        <h3 class="swiper-slide__content-name">Антон Долинин</h3>
-                                        <p class="swiper-slide__content-mail">anton@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="swiper-slide__content-info">Emmet (formerly Zen Coding) is a web-
-                                    developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://github.com/" class="swiper-slide__link" target="_blank">
-                            <div class="swiper-slide__content">
-                                <p class="swiper-slide__content-date">14 августа, 2019</p>
-                                <div class="swiper-slide__content-users">
-                                    <img src="<%=require('../../images/anton.png').default%>"
-                                        class="swiper-slide__content-photo" alt="Фото разработчика">
-                                    <div class="swiper-slide__content-user">
-                                        <h3 class="swiper-slide__content-name">Антон Долинин</h3>
-                                        <p class="swiper-slide__content-mail">anton@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="swiper-slide__content-info">Emmet (formerly Zen Coding) is a web-
-                                    developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
+                    </template>
                 </div>
 
                 <!-- Add Arrows -->
@@ -279,12 +152,12 @@
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
             <div class="history__conatainer">
-                <button type="submit" class="history__button">Открыть в GitHub</button>
+               <a href="https://github.com/Vs-elen/diploma" class="history__button-link" target="_blank"><button type="submit" class="history__button">Открыть в GitHub</button></a> 
             </div>
         </section>
         <footer class="footer">
             <div class="footer__content">
-                <p class="footer__copyright">© 2020 Supersite</p>
+                <p class="footer__copyright">© 2020 Vsiakikh</p>
                 <nav class="footer__navigation">
                     <ul class="footer__navigation-links">
                         <li class="footer__navigation-item">
@@ -301,7 +174,7 @@
                 </nav>
                 <ul class="footer__social-networks">
                     <li class="footer__social-icon">
-                        <a href="https://github.com/" class="footer__icon-link" target="_blank">
+                        <a href="https://github.com/Vs-elen/" class="footer__icon-link" target="_blank">
                             <img src="<%=require('../../images/github.svg').default%>" alt="Иконка Github"
                                 class="footer__icon-pic">
                         </a>

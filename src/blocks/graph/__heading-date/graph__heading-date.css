@@ -9,6 +9,8 @@
     text-transform: uppercase;
     color: #B6BCBF;
     margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 322px) {

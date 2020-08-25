@@ -29,11 +29,11 @@
                     </li>
                     <li class="statistics__link-analytics">/ Аналитика</li>
                 </ul>
-                <h2 class="root__block-title">Вы спросили: «Путешествия»</h2>
+                <h2 class="root__block-title">Вы спросили: «<span class="root__block-title statistics__query">Путешествия</span></span>»</h2>
                 <ul class="statistics__info">
                     <li class="statistics__info_item">Новостей за неделю:<span class="statistics__info_week">34
                             324</span></li>
-                    <li class="statistics__info_item">Упоминаний в загаловках:<span
+                    <li class="statistics__info_item">Упоминаний в загoловках:<span
                             class="statistics__info_titles">235</span></li>
                 </ul>
             </div>
@@ -42,7 +42,7 @@
             <div class="graph__content">
                 <h3 class="graph__content-title">Аналитика по дням</h3>
                 <div class="graph__heading">
-                    <p class="graph__heading-date">Дата (Август)</p>
+                    <p class="graph__heading-date">Дата <span class="graph__heading-date graph__heading-month">(Август)</span></p>
                     <p class="graph__heading-item">Кол-во упоминаний</p>
                 </div>
                 <ul class="graph__scale">
@@ -53,34 +53,12 @@
                     <li class="graph__scale-item">100</li>
                 </ul>
                 <div class="graph__diagram">
+                    <template id="graph__diagram-template">
                     <div class="graph__bar-container">
                         <span class="graph__bar-label">19, пн</span>
                         <div class="graph__bar"><span class="graph__bar-percent">15</span></div>
                     </div>
-                    <div class="graph__bar-container">
-                        <span class="graph__bar-label">20, вт</span>
-                        <div class="graph__bar"><span class="graph__bar-percent">18</span></div>
-                    </div>
-                    <div class="graph__bar-container">
-                        <span class="graph__bar-label">21, ср</span>
-                        <div class="graph__bar"><span class="graph__bar-percent">11</span></div>
-                    </div>
-                    <div class="graph__bar-container">
-                        <span class="graph__bar-label">22, чт</span>
-                        <div class="graph__bar"><span class="graph__bar-percent">39</span></div>
-                    </div>
-                    <div class="graph__bar-container">
-                        <span class="graph__bar-label">23, пт</span>
-                        <div class="graph__bar"><span class="graph__bar-percent">45</span></div>
-                    </div>
-                    <div class="graph__bar-container">
-                        <span class="graph__bar-label">24, сб</span>
-                        <div class="graph__bar"><span class="graph__bar-percent">73</span></div>
-                    </div>
-                    <div class="graph__bar-container">
-                        <span class="graph__bar-label">25, вс</span>
-                        <div class="graph__bar"><span class="graph__bar-percent">34</span></div>
-                    </div>
+                </template>                    
                 </div>
                 <ul class="graph__scale">
                     <li class="graph__scale-item">0</li>
@@ -93,7 +71,7 @@
         </section>
         <footer class="footer">
             <div class="footer__content">
-                <p class="footer__copyright">© 2020 Supersite</p>
+                <p class="footer__copyright">© 2020 Vsiakikh</p>
                 <nav class="footer__navigation">
                     <ul class="footer__navigation-links">
                         <li class="footer__navigation-item">
@@ -110,7 +88,7 @@
                 </nav>
                 <ul class="footer__social-networks">
                     <li class="footer__social-icon">
-                        <a href="https://github.com/" class="footer__icon-link" target="_blank">
+                        <a href="https://github.com/Vs-elen/" class="footer__icon-link" target="_blank">
                             <img src="<%=require('../../images/github.svg').default%>" alt="Иконка Github"
                                 class="footer__icon-pic">
                         </a>
