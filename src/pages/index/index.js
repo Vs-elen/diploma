@@ -53,7 +53,7 @@ function showNewsCards(item) {
 
 
 
-let CURRENT_CONTAINER_SIZE = CURRENT_SIZE;
+let currentContainerSize = CURRENT_SIZE;
 failedBlock.style.display = 'none';
 
 function sendQueryCallback(event) {
@@ -61,9 +61,11 @@ function sendQueryCallback(event) {
     newsCardContainer.innerHTML = '';
     preloaderBlock.classList.remove("preloader_style_hidden");
     failedBlock.style.display = 'none';
+    searchSectionInput.setAttribute("disabled", "true");
 
     newsApi.getNews(searchSectionInput.value)
         .then((res) => {
+            searchSectionInput.removeAttribute("disabled", "true");
             if (res.articles.length === 0) {
                 failedBlock.style.display = 'flex';
                 resultsBlock.style.display = 'none';
@@ -77,7 +79,7 @@ function sendQueryCallback(event) {
                 validateForm.setSubmitButtonState(false);
                 failedBlock.style.display = 'none';
                 preloaderBlock.classList.add("preloader_style_hidden");
-                CURRENT_CONTAINER_SIZE = CURRENT_SIZE;
+                currentContainerSize = CURRENT_SIZE;
                 showMore();
             }
         })
@@ -85,6 +87,7 @@ function sendQueryCallback(event) {
             changeErrorText();
             preloaderBlock.classList.add("preloader_style_hidden");
             failedBlock.style.display = 'flex';
+            resultsBlock.style.display = 'none';
             console.log(err);
         });
 }
@@ -97,12 +100,12 @@ function showMore() {
         resultsBlock.style.display = 'none';
     } else {
         resultsBlock.style.display = 'flex';
-        const slicedCards = cardsFromStorage.slice(CURRENT_CONTAINER_SIZE, CURRENT_CONTAINER_SIZE + INITIAL_CONTAINER);
+        const slicedCards = cardsFromStorage.slice(currentContainerSize, currentContainerSize + INITIAL_CONTAINER);
         slicedCards.map((item) => {
             showNewsCards(item)
         });
-        CURRENT_CONTAINER_SIZE += INITIAL_CONTAINER;
-        if (cardsFromStorage.length <= CURRENT_CONTAINER_SIZE) {
+        currentContainerSize += INITIAL_CONTAINER;
+        if (cardsFromStorage.length <= currentContainerSize) {
             showMoreButton.hidden = true;
         } else {
             showMoreButton.hidden = false;
